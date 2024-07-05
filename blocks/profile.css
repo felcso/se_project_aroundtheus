@@ -18,6 +18,7 @@
   width: 24px;
   height: 24px;
   grid-area: button;
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .profile__add-button {
@@ -25,6 +26,8 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2px;
 }
 
 .profile__title {
@@ -57,6 +60,11 @@
     flex-direction: column;
   }
 
+  .profile__title {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
   .profile__info {
     margin: 0 auto;
     display: flex;
@@ -68,6 +76,8 @@
   .profile__description {
     width: 100%;
     text-align: center;
+    font-size: 14px;
+    line-height: 17px;
   }
 
   .profile__add-button {

@@ -1,5 +1,12 @@
 # Project 3: Around The U.S.
 
+A page made for posting images about the United States. People here can post images, edit their profile and like other users posts.
+In this project we will see a grid layout, to make the website responsive in differents resolutions.
+
+https://drive.google.com/file/d/1cN87pOkPWamkQMJP6rVDcsn8OzODFwVZ/view?usp=sharing
+
+As we can see in the link above, with the autofit value and 282px of width, the cards will fit in the center of the page (of course with other properties).
+
 ### Overview
 
 - Intro
@@ -22,3 +29,7 @@ Good luck and have fun!
 
 Link to web design:
 https://drive.google.com/file/d/1vQdSD2T0YkWIgJW2K10qNrxxX6dLwRnc/view?usp=sharing
+
+## Project Demo
+
+Live demo: (https://github.com/felcso/se_project_aroundtheus.git).
