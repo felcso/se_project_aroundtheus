@@ -3,3 +3,17 @@
   margin-top: 45px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0;
+    max-width: 100%;
+    padding: 28px 0 32px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    padding-left: 27px;
+  }
+}

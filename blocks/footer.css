@@ -11,10 +11,16 @@
   line-height: 18px;
 }
 
-@media screen and (max-width: 480px) {
-  .footer__description {
-    margin: 0;
-    font-size: 1em;
-    line-height: 14px;
+@media screen and (max-width: 620px) {
+  .footer__copyright {
+    font-size: 14px;
+    margin: 48px auto 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    font-size: 14px;
+    margin: 48px 19px 36px;
   }
 }
