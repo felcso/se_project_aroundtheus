@@ -70,39 +70,6 @@
   margin-right: 24px;
 }
 
-@media screen and (max-width: 1100px) {
-  .profile__image {
-    width: 100px;
-    height: 100px;
-    margin: 0;
-  }
-
-  .profile__info {
-    max-width: 100%;
-    margin-left: 10px;
-    display: grid;
-    grid-template-columns: minmax(auto, 250px) auto;
-    align-items: center;
-  }
-
-  .profile__description {
-    max-width: 100%;
-    padding-top: 7px;
-  }
-
-  .profile__title {
-    margin-top: 16px;
-    margin-right: 10px;
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: 400;
-  }
-
-  .profile__add-button {
-    white-space: nowrap;
-  }
-}
-
 @media screen and (max-width: 810px) {
   .profile__info {
     max-width: 100%;
