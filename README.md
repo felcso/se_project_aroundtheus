@@ -32,4 +32,4 @@ https://drive.google.com/file/d/1vQdSD2T0YkWIgJW2K10qNrxxX6dLwRnc/view?usp=shari
 
 ## Project Demo
 
-Live demo: (https://github.com/felcso/se_project_aroundtheus.git).
+Live demo: (https://felcso.github.io/se_project_aroundtheus/).
