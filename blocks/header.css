@@ -22,8 +22,6 @@
 
 @media screen and (max-width: 680px) {
   .header {
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
     max-width: 100%;
     padding: 28px 0 32px;
