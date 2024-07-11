@@ -51,7 +51,6 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 373px;
 }
 
 .profile__description {
@@ -62,6 +61,7 @@
   margin: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   max-width: 415px;
 }
 
@@ -113,7 +113,7 @@
     height: 18px;
     padding: 0;
     box-sizing: border-box;
-    margin-left: 40px;
+    margin-left: 10px;
   }
 
   .profile__add-button {
