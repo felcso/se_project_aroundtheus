@@ -93,6 +93,7 @@
   }
 
   .profile__title {
+    max-width: 200px;
     font-size: 22px;
     line-height: 27px;
     padding: 0;
@@ -101,6 +102,7 @@
   }
 
   .profile__description {
+    max-width: 200px;
     line-height: 17px;
     margin: 14px 43px 38px;
     text-align: center;
@@ -111,6 +113,7 @@
     width: 18px;
     height: 18px;
     padding: 0;
+    margin-right: 10px;
     box-sizing: border-box;
   }
 
