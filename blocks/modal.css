@@ -1,0 +1,124 @@
+.modal {
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal_opened {
+}
+
+.modal__container {
+  padding: 36px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal__closer {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-image: url(../images/Close\ Icon.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -43px;
+  right: -43px;
+}
+
+.modal__heading {
+  color: #000;
+  max-width: 330px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+
+.modal__form {
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modal__input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+
+.modal__button {
+  width: 358px;
+  height: 50.15px;
+  border-radius: 2px 0px 0px 0px;
+  background-color: #000;
+  color: #eee;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.modal__closer {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-image: url(../images/Close Icon.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -43px;
+  right: -43px;
+}
+
+.modal__closer:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) {
+  .modal__container {
+    max-width: 282px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .modal__closer {
+    width: 26px;
+    height: 26px;
+    left: 248px;
+  }
+
+  .modal__heading {
+    max-width: 238px;
+    font-size: 18px;
+  }
+
+  .modal__form {
+    max-width: 238px;
+  }
+
+  .modal__button {
+    max-width: 238px;
+    font-size: 14px;
+  }
+}
