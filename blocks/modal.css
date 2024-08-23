@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.modal__closer {
+.modal__close-button {
   width: 40px;
   height: 40px;
   border: none;
@@ -78,7 +78,7 @@
   margin-top: 48px;
 }
 
-.modal__closer {
+.modal__close-button {
   width: 40px;
   height: 40px;
   border: none;
@@ -91,7 +91,7 @@
   right: -43px;
 }
 
-.modal__closer:hover {
+.modal__close-button:hover {
   opacity: 0.6;
   cursor: pointer;
 }
@@ -103,7 +103,7 @@
     padding-right: 19px;
   }
 
-  .modal__closer {
+  .modal__close-button {
     width: 26px;
     height: 26px;
     left: 248px;
