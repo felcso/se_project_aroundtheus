@@ -36,3 +36,11 @@ let initialCards = [
   objectFive,
   objectSix,
 ];
+
+const profileEditButton = document.querySelector(".profile__edit-button");
+
+profileEditButton.addEventListener("click", showClick);
+
+const modalCloseButton = document.querySelector(".modal__closer");
+
+modalCloseButton = document.querySelector("click", showClick);

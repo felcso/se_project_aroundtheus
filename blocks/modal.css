@@ -6,11 +6,12 @@
   right: 0;
   left: 0;
   z-index: 11;
-  display: flex;
   background-color: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
 .modal_opened {
+  display: flex;
 }
 
 .modal__container {
